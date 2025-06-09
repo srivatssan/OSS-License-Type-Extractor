@@ -8,6 +8,6 @@ public class OrtEnvironmentConfig {
 
     @PostConstruct
     public void setupOrt() {
-        System.setProperty("org.ossreviewtoolkit.log.level", "warn");
+        System.setProperty("org.ossreviewtoolkit.log.level", "info");
     }
 }

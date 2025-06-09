@@ -1,0 +1,1587 @@
+{
+  "repository" : {
+    "vcs" : {
+      "type" : "Git",
+      "url" : "https://github.com/srivatssan/OSS-License-Type-Extractor.git",
+      "revision" : "d0fd5d0406d1c151a276f5e0b012bf988baad0ff",
+      "path" : ""
+    },
+    "vcs_processed" : {
+      "type" : "Git",
+      "url" : "https://github.com/srivatssan/OSS-License-Type-Extractor.git",
+      "revision" : "d0fd5d0406d1c151a276f5e0b012bf988baad0ff",
+      "path" : ""
+    },
+    "config" : { }
+  },
+  "analyzer" : {
+    "start_time" : "2025-06-09T14:16:14.699743Z",
+    "end_time" : "2025-06-09T14:16:48.499860Z",
+    "environment" : {
+      "ort_version" : "60.0.0",
+      "build_jdk" : "21.0.7",
+      "java_version" : "23.0.2",
+      "os" : "Mac OS X",
+      "processors" : 16,
+      "max_memory" : 4294967296,
+      "variables" : {
+        "HOME" : "/Users/srivatssan",
+        "SHELL" : "/bin/zsh",
+        "TERM" : "xterm-256color",
+        "JAVA_HOME" : "/usr/local/opt/openjdk/libexec/openjdk.jdk/Contents/Home"
+      },
+      "tool_versions" : { }
+    },
+    "config" : {
+      "allow_dynamic_versions" : false,
+      "enabled_package_managers" : [ "Bazel", "Bower", "Bundler", "Cargo", "Carthage", "CocoaPods", "Composer", "Conan", "GoMod", "GradleInspector", "Maven", "NPM", "NuGet", "PIP", "Pipenv", "PNPM", "Poetry", "Pub", "SBT", "SpdxDocumentFile", "Stack", "SwiftPM", "Tycho", "Unmanaged", "Yarn", "Yarn2" ],
+      "skip_excluded" : false
+    },
+    "result" : {
+      "projects" : [ {
+        "id" : "Maven:com.sri:license-analyzer:0.0.1-SNAPSHOT",
+        "definition_file_path" : "pom.xml",
+        "authors" : [ "VMware, Inc." ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "vcs" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/srivatssan/OSS-License-Type-Extractor.git",
+          "revision" : "d0fd5d0406d1c151a276f5e0b012bf988baad0ff",
+          "path" : ""
+        },
+        "homepage_url" : "https://spring.io/projects/spring-boot/license-analyzer",
+        "scope_names" : [ "compile" ]
+      } ],
+      "packages" : [ {
+        "id" : "Maven:ch.qos.logback:logback-classic:1.4.14",
+        "purl" : "pkg:maven/ch.qos.logback/logback-classic@1.4.14",
+        "authors" : [ "Ceki Gulcu", "Joern Huxhorn", "QOS.ch" ],
+        "declared_licenses" : [ "Eclipse Public License - v 1.0", "GNU Lesser General Public License" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "EPL-1.0 OR LGPL-2.1-or-later",
+          "mapped" : {
+            "Eclipse Public License - v 1.0" : "EPL-1.0",
+            "GNU Lesser General Public License" : "LGPL-2.1-or-later"
+          }
+        },
+        "description" : "logback-classic module",
+        "homepage_url" : "http://logback.qos.ch/logback-classic",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar",
+          "hash" : {
+            "value" : "d98bc162275134cdf1518774da4a2a17ef6fb94d",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14-sources.jar",
+          "hash" : {
+            "value" : "1b0b0b96069e3ec3b4d8e5cbffc0a56e633063de",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/logback.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/logback.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:ch.qos.logback:logback-core:1.4.14",
+        "purl" : "pkg:maven/ch.qos.logback/logback-core@1.4.14",
+        "authors" : [ "Ceki Gulcu", "Joern Huxhorn", "QOS.ch" ],
+        "declared_licenses" : [ "Eclipse Public License - v 1.0", "GNU Lesser General Public License" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "EPL-1.0 OR LGPL-2.1-or-later",
+          "mapped" : {
+            "Eclipse Public License - v 1.0" : "EPL-1.0",
+            "GNU Lesser General Public License" : "LGPL-2.1-or-later"
+          }
+        },
+        "description" : "logback-core module",
+        "homepage_url" : "http://logback.qos.ch/logback-core",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar",
+          "hash" : {
+            "value" : "4d3c2248219ac0effeb380ed4c5280a80bf395e8",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14-sources.jar",
+          "hash" : {
+            "value" : "7d9dcce57ba091e1e4b4793b244508ea28f52b48",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/logback.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/logback.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.fasterxml.jackson.core:jackson-annotations:2.15.4",
+        "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.4",
+        "authors" : [ "FasterXML", "Tatu Saloranta" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Core annotations used for value types, used by Jackson data binding package.",
+        "homepage_url" : "https://github.com/FasterXML/jackson",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.4/jackson-annotations-2.15.4.jar",
+          "hash" : {
+            "value" : "5223ea5a9bf52cdc9c5e537a0e52f2432eaf208b",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.4/jackson-annotations-2.15.4-sources.jar",
+          "hash" : {
+            "value" : "704650e6ff1479d7847d61e9d578c1c5a9951f76",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:FasterXML/jackson-annotations.git",
+          "revision" : "jackson-annotations-2.15.4",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/FasterXML/jackson-annotations.git",
+          "revision" : "jackson-annotations-2.15.4",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.fasterxml.jackson.core:jackson-core:2.15.4",
+        "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4",
+        "authors" : [ "FasterXML", "Tatu Saloranta" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+        "homepage_url" : "https://github.com/FasterXML/jackson-core",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.4/jackson-core-2.15.4.jar",
+          "hash" : {
+            "value" : "aebe84b45360debad94f692a4074c6aceb535fa0",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.4/jackson-core-2.15.4-sources.jar",
+          "hash" : {
+            "value" : "01e96cdf3ba633b07b8d3cb514e9e5d899c8965f",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:FasterXML/jackson-core.git",
+          "revision" : "jackson-core-2.15.4",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/FasterXML/jackson-core.git",
+          "revision" : "jackson-core-2.15.4",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.fasterxml.jackson.core:jackson-databind:2.15.4",
+        "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4",
+        "authors" : [ "FasterXML", "Tatu Saloranta" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "General data-binding functionality for Jackson: works on core streaming API",
+        "homepage_url" : "https://github.com/FasterXML/jackson",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.4/jackson-databind-2.15.4.jar",
+          "hash" : {
+            "value" : "560309fc381f77d4d15c4a4cdaa0db5025c4fd13",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.4/jackson-databind-2.15.4-sources.jar",
+          "hash" : {
+            "value" : "b45d6e020c2dc43efac1fd1333a349eeafa9a8de",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:FasterXML/jackson-databind.git",
+          "revision" : "jackson-databind-2.15.4",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/FasterXML/jackson-databind.git",
+          "revision" : "jackson-databind-2.15.4",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.4",
+        "purl" : "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.15.4",
+        "authors" : [ "FasterXML", "Tatu Saloranta" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Add-on module for Jackson (http://jackson.codehaus.org) to support\nJDK 8 data types.",
+        "homepage_url" : "https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jdk8",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.4/jackson-datatype-jdk8-2.15.4.jar",
+          "hash" : {
+            "value" : "694777f182334a21bf1aeab1b04cc4398c801f3f",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.4/jackson-datatype-jdk8-2.15.4-sources.jar",
+          "hash" : {
+            "value" : "01d5d9f86752c0c7d0d740e4cbb8b636b2cac5e5",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:FasterXML/jackson-modules-java8.git",
+          "revision" : "jackson-modules-java8-2.15.4",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/FasterXML/jackson-modules-java8.git",
+          "revision" : "jackson-modules-java8-2.15.4",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.4",
+        "purl" : "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.15.4",
+        "authors" : [ "FasterXML", "Nick Williams" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Add-on module to support JSR-310 (Java 8 Date & Time API) data types.",
+        "homepage_url" : "https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jsr310",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.4/jackson-datatype-jsr310-2.15.4.jar",
+          "hash" : {
+            "value" : "7de629770a4559db57128d35ccae7d2fddd35db3",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.4/jackson-datatype-jsr310-2.15.4-sources.jar",
+          "hash" : {
+            "value" : "374791e1cb74eff66f761325affac3b3b2c8a1a1",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:FasterXML/jackson-modules-java8.git",
+          "revision" : "jackson-modules-java8-2.15.4",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/FasterXML/jackson-modules-java8.git",
+          "revision" : "jackson-modules-java8-2.15.4",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.fasterxml.jackson.module:jackson-module-parameter-names:2.15.4",
+        "purl" : "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.15.4",
+        "authors" : [ "FasterXML", "Tatu Saloranta" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Add-on module for Jackson (http://jackson.codehaus.org) to support\nintrospection of method/constructor parameter names, without having to add explicit property name annotation.",
+        "homepage_url" : "https://github.com/FasterXML/jackson-modules-java8/jackson-module-parameter-names",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.4/jackson-module-parameter-names-2.15.4.jar",
+          "hash" : {
+            "value" : "e654497a08359db2521b69b5f710e00836915d8c",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.4/jackson-module-parameter-names-2.15.4-sources.jar",
+          "hash" : {
+            "value" : "4c1d3cc9f6a69cbb03d3517085c92172ddb5fbd3",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:FasterXML/jackson-modules-java8.git",
+          "revision" : "jackson-modules-java8-2.15.4",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/FasterXML/jackson-modules-java8.git",
+          "revision" : "jackson-modules-java8-2.15.4",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:io.micrometer:micrometer-commons:1.12.5",
+        "purl" : "pkg:maven/io.micrometer/micrometer-commons@1.12.5",
+        "authors" : [ "Tommy Ludwig" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Module containing common code",
+        "homepage_url" : "https://github.com/micrometer-metrics/micrometer",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.12.5/micrometer-commons-1.12.5.jar",
+          "hash" : {
+            "value" : "da45afd81a6a05267df5ddfe10438ea857e0f7d9",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.12.5/micrometer-commons-1.12.5-sources.jar",
+          "hash" : {
+            "value" : "b87b1a98ae6ffc9c1c953c2e1b0aebf84a8d3b5b",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/micrometer-metrics/micrometer.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:io.micrometer:micrometer-observation:1.12.5",
+        "purl" : "pkg:maven/io.micrometer/micrometer-observation@1.12.5",
+        "authors" : [ "Tommy Ludwig" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Module containing Observation related code",
+        "homepage_url" : "https://github.com/micrometer-metrics/micrometer",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.12.5/micrometer-observation-1.12.5.jar",
+          "hash" : {
+            "value" : "ee23704259a1aad5c8f503db4d37cdfe5352e766",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.12.5/micrometer-observation-1.12.5-sources.jar",
+          "hash" : {
+            "value" : "c3b23e9bdfbba3c72bf32cf096d363e6afe5db1a",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/micrometer-metrics/micrometer.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "purl" : "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1",
+        "authors" : [ "Eclipse Foundation", "Oracle Corp." ],
+        "declared_licenses" : [ "EPL 2.0", "GPL2 w/ CPE" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+          "mapped" : {
+            "EPL 2.0" : "EPL-2.0",
+            "GPL2 w/ CPE" : "GPL-2.0-only WITH Classpath-exception-2.0"
+          }
+        },
+        "description" : "Jakarta Annotations API",
+        "homepage_url" : "https://projects.eclipse.org/projects/ee4j.ca",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar",
+          "hash" : {
+            "value" : "48b9bda22b091b1f48b13af03fe36db3be6e1ae3",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1-sources.jar",
+          "hash" : {
+            "value" : "3beea3ed2e687d9bd8a78c00e18951fffccefe90",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/eclipse-ee4j/common-annotations-api.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/eclipse-ee4j/common-annotations-api.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.apache.logging.log4j:log4j-api:2.21.1",
+        "purl" : "pkg:maven/org.apache.logging.log4j/log4j-api@2.21.1",
+        "authors" : [ "Apple", "Bruce Brouwer", "Carter Kozak", "Christian Grobmeier", "Nextiva", "Nick Williams", "Piotr P. Karwasz", "Raman Gupta", "Remko Popma", "Ron Grabowski", "Scott Deboy", "Spotify", "The Apache Software Foundation", "Volkan Yazıcı" ],
+        "declared_licenses" : [ "Apache-2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0"
+        },
+        "description" : "The Apache Log4j API",
+        "homepage_url" : "https://logging.apache.org/log4j/2.x/log4j/log4j-api/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar",
+          "hash" : {
+            "value" : "74c65e87b9ce1694a01524e192d7be989ba70486",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1-sources.jar",
+          "hash" : {
+            "value" : "7c87eb50e74855cd86f92bf370300b60ceef4a0b",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/apache/logging-log4j2.git",
+          "revision" : "2.x",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/apache/logging-log4j2.git",
+          "revision" : "2.x",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.apache.logging.log4j:log4j-to-slf4j:2.21.1",
+        "purl" : "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.21.1",
+        "authors" : [ "Apple", "Bruce Brouwer", "Carter Kozak", "Christian Grobmeier", "Nextiva", "Nick Williams", "Piotr P. Karwasz", "Raman Gupta", "Remko Popma", "Ron Grabowski", "Scott Deboy", "Spotify", "The Apache Software Foundation", "Volkan Yazıcı" ],
+        "declared_licenses" : [ "Apache-2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0"
+        },
+        "description" : "The Apache Log4j binding between Log4j 2 API and SLF4J.",
+        "homepage_url" : "https://logging.apache.org/log4j/2.x/log4j/log4j-to-slf4j/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.jar",
+          "hash" : {
+            "value" : "d77b2ba81711ed596cd797cc2b5b5bd7409d841c",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1-sources.jar",
+          "hash" : {
+            "value" : "31272b58321454b5d5a565f1e782ed4448ab3312",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/apache/logging-log4j2.git",
+          "revision" : "2.x",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/apache/logging-log4j2.git",
+          "revision" : "2.x",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.apache.tomcat.embed:tomcat-embed-core:10.1.20",
+        "purl" : "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@10.1.20",
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Core Tomcat implementation",
+        "homepage_url" : "https://tomcat.apache.org/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.20/tomcat-embed-core-10.1.20.jar",
+          "hash" : {
+            "value" : "ba0dc784e12086f83d8e1d5a10443b166abf5780",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.20/tomcat-embed-core-10.1.20-sources.jar",
+          "hash" : {
+            "value" : "0791de1637ad568bf9b95755749766defb4385b0",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.apache.tomcat.embed:tomcat-embed-el:10.1.20",
+        "purl" : "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@10.1.20",
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Core Tomcat implementation",
+        "homepage_url" : "https://tomcat.apache.org/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.20/tomcat-embed-el-10.1.20.jar",
+          "hash" : {
+            "value" : "cc1a42b8228699e92c8eba0187eccf54bf892802",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.20/tomcat-embed-el-10.1.20-sources.jar",
+          "hash" : {
+            "value" : "2a1a0ab07009cd23a154ef8ce35fb6f3f063d22e",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.apache.tomcat.embed:tomcat-embed-websocket:10.1.20",
+        "purl" : "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@10.1.20",
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Core Tomcat implementation",
+        "homepage_url" : "https://tomcat.apache.org/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.20/tomcat-embed-websocket-10.1.20.jar",
+          "hash" : {
+            "value" : "21502adffaf9e6e4bc2b63a557e348d7f6c0faf7",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.20/tomcat-embed-websocket-10.1.20-sources.jar",
+          "hash" : {
+            "value" : "ae6c5c5abe6656eaf17f053d3c7c7f4ee64a0b12",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.slf4j:jul-to-slf4j:2.0.13",
+        "purl" : "pkg:maven/org.slf4j/jul-to-slf4j@2.0.13",
+        "authors" : [ "Ceki Gulcu", "QOS.ch" ],
+        "declared_licenses" : [ "MIT License" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT",
+          "mapped" : {
+            "MIT License" : "MIT"
+          }
+        },
+        "description" : "JUL to SLF4J bridge",
+        "homepage_url" : "http://www.slf4j.org",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/2.0.13/jul-to-slf4j-2.0.13.jar",
+          "hash" : {
+            "value" : "a3bcd9d9dd50c71ce69f06b1fd05e40fdeff6ba5",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/2.0.13/jul-to-slf4j-2.0.13-sources.jar",
+          "hash" : {
+            "value" : "91b642c6dead52faad3a6b762607d896e143a6e3",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/slf4j.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/slf4j.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.slf4j:slf4j-api:2.0.13",
+        "purl" : "pkg:maven/org.slf4j/slf4j-api@2.0.13",
+        "authors" : [ "Ceki Gulcu", "QOS.ch" ],
+        "declared_licenses" : [ "MIT License" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT",
+          "mapped" : {
+            "MIT License" : "MIT"
+          }
+        },
+        "description" : "The slf4j API",
+        "homepage_url" : "http://www.slf4j.org",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar",
+          "hash" : {
+            "value" : "80229737f704b121a318bba5d5deacbcf395bc77",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13-sources.jar",
+          "hash" : {
+            "value" : "e7a3edf3c9b41ce9d4daeee609fc59cb2730f67f",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/slf4j.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/slf4j.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.springframework:spring-aop:6.1.6",
+        "purl" : "pkg:maven/org.springframework/spring-aop@6.1.6",
+        "authors" : [ "Juergen Hoeller", "Spring IO" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Spring AOP",
+        "homepage_url" : "https://github.com/spring-projects/spring-framework",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.1.6/spring-aop-6.1.6.jar",
+          "hash" : {
+            "value" : "4958f52cb9fcb3adf7e836304550de5431a9347e",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.1.6/spring-aop-6.1.6-sources.jar",
+          "hash" : {
+            "value" : "8e37125a73fcc20f30546df89cc614a0e01e78d8",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/spring-projects/spring-framework",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/spring-projects/spring-framework.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.springframework:spring-beans:6.1.6",
+        "purl" : "pkg:maven/org.springframework/spring-beans@6.1.6",
+        "authors" : [ "Juergen Hoeller", "Spring IO" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Spring Beans",
+        "homepage_url" : "https://github.com/spring-projects/spring-framework",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.1.6/spring-beans-6.1.6.jar",
+          "hash" : {
+            "value" : "332d80ff134420db4ebf7614758e6a02a9bd3c41",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.1.6/spring-beans-6.1.6-sources.jar",
+          "hash" : {
+            "value" : "b80a38400442ae3ae17e0c10ee2fbc9a31f6c6b1",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/spring-projects/spring-framework",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/spring-projects/spring-framework.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.springframework:spring-context:6.1.6",
+        "purl" : "pkg:maven/org.springframework/spring-context@6.1.6",
+        "authors" : [ "Juergen Hoeller", "Spring IO" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Spring Context",
+        "homepage_url" : "https://github.com/spring-projects/spring-framework",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.1.6/spring-context-6.1.6.jar",
+          "hash" : {
+            "value" : "2be30298638975efaf7fff22f1570d79b2679814",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.1.6/spring-context-6.1.6-sources.jar",
+          "hash" : {
+            "value" : "f887573c2b882a491ccc6e131d5f59c22950e23d",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/spring-projects/spring-framework",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/spring-projects/spring-framework.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.springframework:spring-core:6.1.6",
+        "purl" : "pkg:maven/org.springframework/spring-core@6.1.6",
+        "authors" : [ "Juergen Hoeller", "Spring IO" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Spring Core",
+        "homepage_url" : "https://github.com/spring-projects/spring-framework",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.1.6/spring-core-6.1.6.jar",
+          "hash" : {
+            "value" : "dea4b8e110b7b54a02a4907e32dbb0adee8a7168",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.1.6/spring-core-6.1.6-sources.jar",
+          "hash" : {
+            "value" : "b7d85d2cd9cb927c6a530b84698354efdb8d8bed",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/spring-projects/spring-framework",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/spring-projects/spring-framework.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.springframework:spring-expression:6.1.6",
+        "purl" : "pkg:maven/org.springframework/spring-expression@6.1.6",
+        "authors" : [ "Juergen Hoeller", "Spring IO" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Spring Expression Language (SpEL)",
+        "homepage_url" : "https://github.com/spring-projects/spring-framework",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.1.6/spring-expression-6.1.6.jar",
+          "hash" : {
+            "value" : "9c3d7f0e17a919a4ea9f087e4e2140ad39776bc8",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.1.6/spring-expression-6.1.6-sources.jar",
+          "hash" : {
+            "value" : "7abc6b227cb4f421483a3b8d5a534f9b0c0201fb",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/spring-projects/spring-framework",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/spring-projects/spring-framework.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.springframework:spring-jcl:6.1.6",
+        "purl" : "pkg:maven/org.springframework/spring-jcl@6.1.6",
+        "authors" : [ "Juergen Hoeller", "Spring IO" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Spring Commons Logging Bridge",
+        "homepage_url" : "https://github.com/spring-projects/spring-framework",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.1.6/spring-jcl-6.1.6.jar",
+          "hash" : {
+            "value" : "84cb19b30b22feca73c2ac005ca849c5890935a3",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.1.6/spring-jcl-6.1.6-sources.jar",
+          "hash" : {
+            "value" : "15e20ee1db8f458f118c9e208c6801c50f6cce77",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/spring-projects/spring-framework",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/spring-projects/spring-framework.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.springframework:spring-web:6.1.6",
+        "purl" : "pkg:maven/org.springframework/spring-web@6.1.6",
+        "authors" : [ "Juergen Hoeller", "Spring IO" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Spring Web",
+        "homepage_url" : "https://github.com/spring-projects/spring-framework",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.1.6/spring-web-6.1.6.jar",
+          "hash" : {
+            "value" : "49a32e3497fe39550da3b280bda5d9933ae2d51d",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.1.6/spring-web-6.1.6-sources.jar",
+          "hash" : {
+            "value" : "be78ef476d499275ce288edac95b9ec512d5164f",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/spring-projects/spring-framework",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/spring-projects/spring-framework.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.springframework:spring-webmvc:6.1.6",
+        "purl" : "pkg:maven/org.springframework/spring-webmvc@6.1.6",
+        "authors" : [ "Juergen Hoeller", "Spring IO" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Spring Web MVC",
+        "homepage_url" : "https://github.com/spring-projects/spring-framework",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.1.6/spring-webmvc-6.1.6.jar",
+          "hash" : {
+            "value" : "ef1f76db6d94bac428839cb91fa59235c8356e56",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.1.6/spring-webmvc-6.1.6-sources.jar",
+          "hash" : {
+            "value" : "97171370b9aceb3e02d893d998ddfda5c0f2d747",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/spring-projects/spring-framework",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/spring-projects/spring-framework.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.springframework.boot:spring-boot:3.2.5",
+        "purl" : "pkg:maven/org.springframework.boot/spring-boot@3.2.5",
+        "authors" : [ "VMware, Inc." ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Spring Boot",
+        "homepage_url" : "https://spring.io/projects/spring-boot",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.2.5/spring-boot-3.2.5.jar",
+          "hash" : {
+            "value" : "eec72431f6f56a50c9919129665ba3359ca02104",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.2.5/spring-boot-3.2.5-sources.jar",
+          "hash" : {
+            "value" : "b3dbf02fd1e0cf8b1b7c6f6d489adaea7612a891",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/spring-projects/spring-boot.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/spring-projects/spring-boot.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.springframework.boot:spring-boot-autoconfigure:3.2.5",
+        "purl" : "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.2.5",
+        "authors" : [ "VMware, Inc." ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Spring Boot AutoConfigure",
+        "homepage_url" : "https://spring.io/projects/spring-boot",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.2.5/spring-boot-autoconfigure-3.2.5.jar",
+          "hash" : {
+            "value" : "6385a2c00a03edb896b2833e4bdee2ae53cd69b8",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.2.5/spring-boot-autoconfigure-3.2.5-sources.jar",
+          "hash" : {
+            "value" : "c1d688a3c1c5c11b696790a6aafcc98aa68e53d7",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/spring-projects/spring-boot.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/spring-projects/spring-boot.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.springframework.boot:spring-boot-starter:3.2.5",
+        "purl" : "pkg:maven/org.springframework.boot/spring-boot-starter@3.2.5",
+        "authors" : [ "VMware, Inc." ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Core starter, including auto-configuration support, logging and YAML",
+        "homepage_url" : "https://spring.io/projects/spring-boot",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.2.5/spring-boot-starter-3.2.5.jar",
+          "hash" : {
+            "value" : "a9837a876129cc6fe5f3abf1de5ec0a16faaf003",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.2.5/spring-boot-starter-3.2.5-sources.jar",
+          "hash" : {
+            "value" : "ef9683d16ab6aa765cecffe728c569ea508a29d2",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/spring-projects/spring-boot.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/spring-projects/spring-boot.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "is_metadata_only" : true
+      }, {
+        "id" : "Maven:org.springframework.boot:spring-boot-starter-json:3.2.5",
+        "purl" : "pkg:maven/org.springframework.boot/spring-boot-starter-json@3.2.5",
+        "authors" : [ "VMware, Inc." ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Starter for reading and writing json",
+        "homepage_url" : "https://spring.io/projects/spring-boot",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.2.5/spring-boot-starter-json-3.2.5.jar",
+          "hash" : {
+            "value" : "6df311af4c242eb95c3526f48ab4f31c384a247e",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.2.5/spring-boot-starter-json-3.2.5-sources.jar",
+          "hash" : {
+            "value" : "381ec4db3d4fbe79c9ba04dfe8733145937bc53c",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/spring-projects/spring-boot.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/spring-projects/spring-boot.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "is_metadata_only" : true
+      }, {
+        "id" : "Maven:org.springframework.boot:spring-boot-starter-logging:3.2.5",
+        "purl" : "pkg:maven/org.springframework.boot/spring-boot-starter-logging@3.2.5",
+        "authors" : [ "VMware, Inc." ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Starter for logging using Logback. Default logging starter",
+        "homepage_url" : "https://spring.io/projects/spring-boot",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.2.5/spring-boot-starter-logging-3.2.5.jar",
+          "hash" : {
+            "value" : "28cf3a346da7bb624381ccc21d7a27500181de63",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.2.5/spring-boot-starter-logging-3.2.5-sources.jar",
+          "hash" : {
+            "value" : "2d73c37a0a0bb7445172e035ad001da283dc3fa9",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/spring-projects/spring-boot.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/spring-projects/spring-boot.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "is_metadata_only" : true
+      }, {
+        "id" : "Maven:org.springframework.boot:spring-boot-starter-tomcat:3.2.5",
+        "purl" : "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@3.2.5",
+        "authors" : [ "VMware, Inc." ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Starter for using Tomcat as the embedded servlet container. Default servlet container starter used by spring-boot-starter-web",
+        "homepage_url" : "https://spring.io/projects/spring-boot",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.2.5/spring-boot-starter-tomcat-3.2.5.jar",
+          "hash" : {
+            "value" : "a40ebfa6becb35b419b37e49e33b2822e22cf42a",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.2.5/spring-boot-starter-tomcat-3.2.5-sources.jar",
+          "hash" : {
+            "value" : "3d49eab8171e38e6958f5c2fc8c23adf7c81bd05",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/spring-projects/spring-boot.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/spring-projects/spring-boot.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "is_metadata_only" : true
+      }, {
+        "id" : "Maven:org.springframework.boot:spring-boot-starter-web:3.2.5",
+        "purl" : "pkg:maven/org.springframework.boot/spring-boot-starter-web@3.2.5",
+        "authors" : [ "VMware, Inc." ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Starter for building web, including RESTful, applications using Spring MVC. Uses Tomcat as the default embedded container",
+        "homepage_url" : "https://spring.io/projects/spring-boot",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.2.5/spring-boot-starter-web-3.2.5.jar",
+          "hash" : {
+            "value" : "664d75553c6af42122d4db645f4924a95084e382",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.2.5/spring-boot-starter-web-3.2.5-sources.jar",
+          "hash" : {
+            "value" : "9b92aefad357e5ef62c11ed3e23e0daa81e5fa39",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/spring-projects/spring-boot.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/spring-projects/spring-boot.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "is_metadata_only" : true
+      }, {
+        "id" : "Maven:org.yaml:snakeyaml:2.2",
+        "purl" : "pkg:maven/org.yaml/snakeyaml@2.2",
+        "authors" : [ "Alexander Maslov", "Andrey Somov" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "YAML 1.1 parser and emitter for Java",
+        "homepage_url" : "https://bitbucket.org/snakeyaml/snakeyaml",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar",
+          "hash" : {
+            "value" : "3af797a25458550a16bf89acc8e4ab2b7f2bfce0",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.2/snakeyaml-2.2-sources.jar",
+          "hash" : {
+            "value" : "575a7915b847393207642575c139177ac2b2ac23",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "http://bitbucket.org/snakeyaml/snakeyaml",
+          "revision" : "snakeyaml-2.2",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "http://bitbucket.org/snakeyaml/snakeyaml",
+          "revision" : "snakeyaml-2.2",
+          "path" : ""
+        }
+      } ],
+      "dependency_graphs" : {
+        "Maven" : {
+          "packages" : [ "Maven:ch.qos.logback:logback-classic:1.4.14", "Maven:ch.qos.logback:logback-core:1.4.14", "Maven:com.fasterxml.jackson.core:jackson-annotations:2.15.4", "Maven:com.fasterxml.jackson.core:jackson-core:2.15.4", "Maven:com.fasterxml.jackson.core:jackson-databind:2.15.4", "Maven:com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.4", "Maven:com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.4", "Maven:com.fasterxml.jackson.module:jackson-module-parameter-names:2.15.4", "Maven:io.micrometer:micrometer-commons:1.12.5", "Maven:io.micrometer:micrometer-observation:1.12.5", "Maven:jakarta.annotation:jakarta.annotation-api:2.1.1", "Maven:org.apache.logging.log4j:log4j-api:2.21.1", "Maven:org.apache.logging.log4j:log4j-to-slf4j:2.21.1", "Maven:org.apache.tomcat.embed:tomcat-embed-core:10.1.20", "Maven:org.apache.tomcat.embed:tomcat-embed-el:10.1.20", "Maven:org.apache.tomcat.embed:tomcat-embed-websocket:10.1.20", "Maven:org.slf4j:jul-to-slf4j:2.0.13", "Maven:org.slf4j:slf4j-api:2.0.13", "Maven:org.springframework.boot:spring-boot-autoconfigure:3.2.5", "Maven:org.springframework.boot:spring-boot-starter-json:3.2.5", "Maven:org.springframework.boot:spring-boot-starter-logging:3.2.5", "Maven:org.springframework.boot:spring-boot-starter-tomcat:3.2.5", "Maven:org.springframework.boot:spring-boot-starter-web:3.2.5", "Maven:org.springframework.boot:spring-boot-starter:3.2.5", "Maven:org.springframework.boot:spring-boot:3.2.5", "Maven:org.springframework:spring-aop:6.1.6", "Maven:org.springframework:spring-beans:6.1.6", "Maven:org.springframework:spring-context:6.1.6", "Maven:org.springframework:spring-core:6.1.6", "Maven:org.springframework:spring-expression:6.1.6", "Maven:org.springframework:spring-jcl:6.1.6", "Maven:org.springframework:spring-web:6.1.6", "Maven:org.springframework:spring-webmvc:6.1.6", "Maven:org.yaml:snakeyaml:2.2" ],
+          "scopes" : {
+            "com.sri:license-analyzer:0.0.1-SNAPSHOT:compile" : [ {
+              "root" : 4
+            }, {
+              "root" : 22
+            } ]
+          },
+          "nodes" : [ {
+            "pkg" : 24
+          }, {
+            "pkg" : 18
+          }, {
+            "pkg" : 1
+          }, {
+            "pkg" : 17
+          }, { }, {
+            "pkg" : 11
+          }, {
+            "pkg" : 12
+          }, {
+            "pkg" : 16
+          }, {
+            "pkg" : 20
+          }, {
+            "pkg" : 10
+          }, {
+            "pkg" : 30
+          }, {
+            "pkg" : 28
+          }, {
+            "pkg" : 33
+          }, {
+            "pkg" : 23
+          }, {
+            "pkg" : 5
+          }, {
+            "pkg" : 6
+          }, {
+            "pkg" : 7
+          }, {
+            "pkg" : 19
+          }, {
+            "pkg" : 13
+          }, {
+            "pkg" : 14
+          }, {
+            "pkg" : 15
+          }, {
+            "pkg" : 21
+          }, {
+            "pkg" : 26
+          }, {
+            "pkg" : 8
+          }, {
+            "pkg" : 9
+          }, {
+            "pkg" : 31
+          }, {
+            "pkg" : 25
+          }, {
+            "pkg" : 27
+          }, {
+            "pkg" : 29
+          }, {
+            "pkg" : 32
+          }, {
+            "pkg" : 22
+          }, {
+            "pkg" : 2
+          }, {
+            "pkg" : 3
+          }, {
+            "pkg" : 4
+          } ],
+          "edges" : [ {
+            "from" : 4,
+            "to" : 2
+          }, {
+            "from" : 4,
+            "to" : 3
+          }, {
+            "from" : 6,
+            "to" : 5
+          }, {
+            "from" : 8,
+            "to" : 4
+          }, {
+            "from" : 8,
+            "to" : 6
+          }, {
+            "from" : 8,
+            "to" : 7
+          }, {
+            "from" : 11,
+            "to" : 10
+          }, {
+            "from" : 13,
+            "to" : 0
+          }, {
+            "from" : 13,
+            "to" : 1
+          }, {
+            "from" : 13,
+            "to" : 8
+          }, {
+            "from" : 13,
+            "to" : 9
+          }, {
+            "from" : 13,
+            "to" : 11
+          }, {
+            "from" : 13,
+            "to" : 12
+          }, {
+            "from" : 17,
+            "to" : 14
+          }, {
+            "from" : 17,
+            "to" : 15
+          }, {
+            "from" : 17,
+            "to" : 16
+          }, {
+            "from" : 21,
+            "to" : 18
+          }, {
+            "from" : 21,
+            "to" : 19
+          }, {
+            "from" : 21,
+            "to" : 20
+          }, {
+            "from" : 24,
+            "to" : 23
+          }, {
+            "from" : 25,
+            "to" : 22
+          }, {
+            "from" : 25,
+            "to" : 24
+          }, {
+            "from" : 29,
+            "to" : 26
+          }, {
+            "from" : 29,
+            "to" : 27
+          }, {
+            "from" : 29,
+            "to" : 28
+          }, {
+            "from" : 30,
+            "to" : 13
+          }, {
+            "from" : 30,
+            "to" : 17
+          }, {
+            "from" : 30,
+            "to" : 21
+          }, {
+            "from" : 30,
+            "to" : 25
+          }, {
+            "from" : 30,
+            "to" : 29
+          }, {
+            "from" : 33,
+            "to" : 31
+          }, {
+            "from" : 33,
+            "to" : 32
+          } ]
+        }
+      }
+    }
+  },
+  "scanner" : null,
+  "advisor" : null,
+  "evaluator" : null,
+  "resolved_configuration" : {
+    "package_curations" : [ {
+      "provider" : {
+        "id" : "DefaultDir"
+      },
+      "curations" : [ ]
+    }, {
+      "provider" : {
+        "id" : "DefaultFile"
+      },
+      "curations" : [ ]
+    } ]
+  }
+}

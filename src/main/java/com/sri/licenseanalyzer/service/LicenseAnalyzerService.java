@@ -5,7 +5,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sri.licenseanalyzer.model.DependencyLicenseInfo;
 import org.springframework.stereotype.Service;
 import com.sri.licenseanalyzer.config.OrtEnvironmentConfig;
+
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.InputStreamReader;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
 
 @Service
@@ -17,19 +22,28 @@ public class LicenseAnalyzerService {
             File outputDir = new File("ort-output");
             outputDir.mkdirs();
 
-            ProcessBuilder pb = new ProcessBuilder(
-                    "ort", "analyze",
-                    "-i", input.getAbsolutePath(),
-                    "-o", outputDir.getAbsolutePath(),
+            String outputPath = "/tmp/ort-output-" + System.currentTimeMillis();
+            Files.createDirectories(Paths.get(outputPath));
+
+            ProcessBuilder pb = new ProcessBuilder("ort", "analyze",
+                    "-i", manifestPath,
+                    "-o", outputPath,
                     "--output-formats", "JSON"
             );
+            pb.redirectErrorStream(true); // Combine stderr and stdout
 
-            pb.redirectErrorStream(true);
             Process process = pb.start();
-            int exitCode = process.waitFor();
 
+            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+            StringBuilder logOutput = new StringBuilder();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                logOutput.append(line).append("\n");
+            }
+
+            int exitCode = process.waitFor();
             if (exitCode != 0) {
-                throw new RuntimeException("ORT CLI failed. Check logs.");
+                throw new RuntimeException("ORT CLI failed.\n" + logOutput);
             }
 
             File ortResultFile = new File(outputDir, "analyzer-result.json");
