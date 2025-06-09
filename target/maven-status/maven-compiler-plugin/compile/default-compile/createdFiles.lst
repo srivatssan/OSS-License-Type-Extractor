@@ -1,0 +1,6 @@
+com/sri/licenseanalyzer/model/ManifestRequest.class
+com/sri/licenseanalyzer/service/LicenseAnalyzerService.class
+com/sri/licenseanalyzer/LicenseAnalyzerApplication.class
+com/sri/licenseanalyzer/config/OrtEnvironmentConfig.class
+com/sri/licenseanalyzer/controller/LicenseAnalyzerController.class
+com/sri/licenseanalyzer/model/DependencyLicenseInfo.class

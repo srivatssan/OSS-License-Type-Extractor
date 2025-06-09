@@ -13,5 +13,19 @@ public class DependencyLicenseInfo {
         this.licenseUrl = licenseUrl;
     }
 
-    // Getters and setters
+    public String getName() {
+        return name;
+    }
+
+    public String getVersion() {
+        return version;
+    }
+
+    public String getLicense() {
+        return license;
+    }
+
+    public String getLicenseUrl() {
+        return licenseUrl;
+    }
 }

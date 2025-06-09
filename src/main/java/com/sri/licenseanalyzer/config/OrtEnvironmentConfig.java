@@ -1,9 +1,13 @@
+package com.sri.licenseanalyzer.config;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
+import org.springframework.context.annotation.Configuration;
+
 @Configuration
 public class OrtEnvironmentConfig {
 
     @PostConstruct
     public void setupOrt() {
-        OrtMain.setLogLevel("warn");
-        OrtMain.configureEnvironmentVariables(); // Optional for caching, etc.
+        System.setProperty("org.ossreviewtoolkit.log.level", "warn");
     }
 }

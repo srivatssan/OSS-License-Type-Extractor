@@ -1,0 +1,6 @@
+/Users/srivatssan/workspace/OSS-License-Type-Extractor/src/main/java/com/sri/licenseanalyzer/model/DependencyLicenseInfo.java
+/Users/srivatssan/workspace/OSS-License-Type-Extractor/src/main/java/com/sri/licenseanalyzer/service/LicenseAnalyzerService.java
+/Users/srivatssan/workspace/OSS-License-Type-Extractor/src/main/java/com/sri/licenseanalyzer/config/OrtEnvironmentConfig.java
+/Users/srivatssan/workspace/OSS-License-Type-Extractor/src/main/java/com/sri/licenseanalyzer/controller/LicenseAnalyzerController.java
+/Users/srivatssan/workspace/OSS-License-Type-Extractor/src/main/java/com/sri/licenseanalyzer/LicenseAnalyzerApplication.java
+/Users/srivatssan/workspace/OSS-License-Type-Extractor/src/main/java/com/sri/licenseanalyzer/model/ManifestRequest.java
